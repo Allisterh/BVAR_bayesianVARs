@@ -1,6 +1,6 @@
 bayesianVARs: Hierarchical shrinkage priors
 ================
-Luis Gruber
+…
 16 5 2022
 
 Estimation of Bayesian vectorautoregressions. Implements several modern
@@ -14,7 +14,7 @@ Selection (SSVS) and the Hierarchical Minnesota prior.
 Install directly from GitHub.
 
 ``` r
-devtools::install_github("luisgruber/bayesianVARs")
+devtools::install_github("bayesianVARs/bayesianVARs")
 ```
 
 # Getting started
