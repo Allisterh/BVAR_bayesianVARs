@@ -1,12 +1,31 @@
 Package: bayesianVARs
-Title: What the Package Does (One Line, Title Case)
+Title: MCMC estimation of Bayesian Vectorautoregressions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person(given = "Luis",
+           family = "Gruber",
+           role = c("aut", "cre"),
+           email = "Luis.Gruber@aau.at",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: GPL (>= 3)
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    GIGrvg,
+    MASS,
+    mvtnorm,
+    Rcpp,
+    stats,
+    stochvol,
+    colorspace
+LinkingTo: 
+    Rcpp,
+    GIGrvg,
+    RcppArmadillo,
+    stochvol,
+    RcppProgress
+Depends: 
+    R (>= 2.10)
